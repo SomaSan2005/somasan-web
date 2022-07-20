@@ -1,0 +1,9 @@
+{
+  "name": "somasan-web",
+  "version": "1.0.0",
+  "description": "Portfolio for Soma San by saintabomination",
+  "main": "index.js",
+  "repository": "git@github.com:saintabomination/somasan-web.git",
+  "author": "saintabomination <saint.abomination@protonmail.com>",
+  "license": "MIT"
+}
