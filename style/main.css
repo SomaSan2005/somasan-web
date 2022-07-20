@@ -1,32 +1,6 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 56.25%;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
 body {
   font-size: 1.5rem;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  color: unset;
-  text-decoration: none;
+  font-family: 'Edu SA Beginner Regular', sans-serif;
 }
 
 .main-wrap {
