@@ -6,6 +6,20 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 56.25%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  font-size: 1.5rem;
+}
+
 ul {
   list-style: none;
 }
@@ -13,4 +27,29 @@ ul {
 a {
   color: unset;
   text-decoration: none;
+}
+
+.main-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 540px;
+}
+
+.main-wrap .content-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main-wrap .content-wrap .content-image {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+.main-wrap .content-wrap .content-title {
+  margin-top: 24px;
 }
